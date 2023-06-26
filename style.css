@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+:root {
+    --main-bg-color: #2874f0;
+  }
+  body{
+    background-color: antiquewhite;
+  }
+
+header{
+    
+    background-color:var(--main-bg-color);
+    color:#f0f0f0;
+  
+}
+.btn{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items:center;
+}
+.logo img{
+    margin: 1px;
+    padding: 0px 15px;
+    width: 125px;
+    height: 34px;
+}
+nav{
+    display:flex;
+}
+nav ul li{
+    margin:23px;
+    list-style:none;
+   
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+nav ul li a:hover{
+    color:#b3c6e5;
+    font-size: large;
+
+}
+ul{
+    height:70px;
+    display:flex;
+    justify-content:flex-start;
+}
+.search{
+    width: 440px;
+    display: flex;
+    align-items: center;
+    padding:20px;
+    margin:0px 54px;
+    /* width: 290px; */
+}
+
+.container{
+    min-height: 90vh;
+    overflow: hidden;
+}
+.search input{
+    height: 34px;
+    width: 498px;
+  
+    border-radius: 5px;
+}
+.search button{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.slider{
+    display:flex;
+    justify-content:center;
+    overflow: hidden;
+}
+.card{
+    background-color: white;
+    max-width:91vw;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+}
+.card-item{
+    display:flex;
+    margin:20px 34px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.lines{
+    margin: 0px 44px;
+    font-family:'Roboto';
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color:var(--main-bg-color);
+    color:white;
+    height: 12vh;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+}

@@ -1,0 +1,16 @@
+@media only screen and(max-width:900px){
+    body{
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content:center;
+    }
+    ul{
+        justify-content: center;
+
+    }
+    
+}

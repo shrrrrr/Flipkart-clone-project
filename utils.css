@@ -1,0 +1,21 @@
+.flex-all-center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.btn{
+    border: 2px solid aliceblue;
+    background-color: cornflowerblue;
+    height: 23px;
+    width: 76px;
+    border-radius: 8px;
+    margin: 0px 0px 0px 12px;
+    color: white;
+    cursor:pointer;
+}
+.btn:hover{
+    font-size: 12px;
+    font:bold;
+
+}
